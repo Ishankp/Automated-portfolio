@@ -1,0 +1,37 @@
+{
+  "name": "Alex Mercer",
+  "title": "Cloud & DevOps Engineer",
+  "bio": "Specializing in automating software delivery pipelines, container orchestrations, and secure cloud infrastructure.",
+  "links": {
+    "linkedin": "https://linkedin.com",
+    "github": "https://github.com"
+  },
+  "technicalSkills": {
+    "programmingLanguages": ["JavaScript", "TypeScript", "Python", "Go"],
+    "frameworksAndLibraries": ["React", "Node.js", "Express", "Next.js"],
+    "developerTools": ["Docker", "Kubernetes", "Git", "Terraform", "AWS"],
+    "softwareEngineeringPractices": ["CI/CD Automation", "Agile/Scrum", "Test-Driven Development", "Microservices"]
+  },
+  "education": [
+    {
+      "institution": "State University",
+      "degree": "Bachelor of Science in Computer Science",
+      "graduationYear": "2026",
+      "details": "Graduated with Honors. Focus on Systems Architecture."
+    }
+  ],
+  "experiences": [
+    {
+      "company": "CloudScale Solutions",
+      "position": "DevOps Engineer Intern",
+      "duration": "May 2025 - August 2025",
+      "description": "Automated deployment infrastructure using GitHub Actions pipelines, reducing delivery cycle times by 20%. Managed scalable Docker containers within development cluster environments."
+    },
+    {
+      "company": "TechCorp Systems",
+      "position": "Frontend Developer Intern",
+      "duration": "June 2024 - August 2024",
+      "description": "Collaborated within an Agile framework to migrate standard corporate webpages into responsive, high-performance React components."
+    }
+  ]
+}
