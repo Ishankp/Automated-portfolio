@@ -1,4 +1,4 @@
-// src/Profile.jsx
+// src/header.jsx
 import "./header.css";
 
 function Header({ name, title }) {
