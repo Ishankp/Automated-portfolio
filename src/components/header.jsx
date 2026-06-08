@@ -1,13 +1,13 @@
 // src/Profile.jsx
-import header from "./header.css";
+import "./header.css";
 
-function Profile({ name, title }) {
+function Header({ name, title }) {
   return (
-    <section>
+    <div className="header-container">
       <h2>Name: {name}</h2>
       <p>{title}</p>
-    </section>
+    </div>
   );
 }
 
-export default Profile;
+export default Header;
