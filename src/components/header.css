@@ -2,7 +2,9 @@
 .header-container {
   background-color: #333; /* Dark background */
   color: white;           /* White text */
-  padding: 20px;          /* Adds space inside the header */
+  padding: 20px;             /* Adds space inside the header */
   text-align: center;
   width: 100%;            /* Spans the full width */
+  margin-top: 20px;          /* Adds space above the header */
 }
+

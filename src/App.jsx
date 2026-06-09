@@ -1,10 +1,11 @@
 import info from '../info.json';
+import "./App.css";
 import Header from './components/header.jsx';
 import Profile from './components/profile.jsx';
 
 function App() {
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+    <div className="main-container">
       {/* Header section */}
       <Header name={info.name} title={info.title} />
 
