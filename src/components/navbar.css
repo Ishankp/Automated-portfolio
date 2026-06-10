@@ -1,0 +1,26 @@
+/* src/components/Navbar.css */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.nav-links {
+  display: flex;          /* Enables side-by-side layout */
+  justify-content: center; /* Centers links horizontally */
+  gap: 30px;              /* Adds space between each link */
+  list-style: none;       /* Removes bullet points if using <ul> */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff5733; /* Adds a nice hover effect */
+}
