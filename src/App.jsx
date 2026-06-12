@@ -13,7 +13,7 @@ function App() {
       <Header name={info.name} title={info.title} />
 
       {/* Profile section */}
-      <Profile bio={info.bio} skills={info.skills} />
+      <Profile bio={info.bio} education={info.education} />
     </div>
   );
 }
