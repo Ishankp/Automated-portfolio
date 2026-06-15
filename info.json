@@ -4,7 +4,7 @@
   "bio": "Specializing in automating software delivery pipelines, container orchestrations, and secure cloud infrastructure.",
   "links": {
     "linkedin": "https://linkedin.com",
-    "github": "https://github.com"
+    "github_username": "Ishankp"
   },
   "technicalSkills": {
     "programmingLanguages": ["JavaScript", "TypeScript", "Python", "Go"],
@@ -32,6 +32,14 @@
       "position": "Frontend Developer Intern",
       "duration": "June 2024 - August 2024",
       "description": "Collaborated within an Agile framework to migrate standard corporate webpages into responsive, high-performance React components."
+    }
+  ],
+  "projects": [
+    {
+      "repo_name": "Automated-portfolio"
+    },
+    {
+      "repo_name": "react-portfolio-website"
     }
   ]
 }

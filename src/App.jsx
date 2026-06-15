@@ -3,6 +3,7 @@ import "./App.css";
 import Header from './components/header.jsx';
 import Profile from './components/profile.jsx';
 import Navbar from './components/navbar.jsx';
+import Projects from './components/projects.jsx';
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
 
       {/* Profile section */}
       <Profile bio={info.bio} education={info.education} />
+
+      {/* Projects section */}
+      <Projects projects = {info.projects} github = {info.github_username}/>
+
     </div>
   );
 }
