@@ -31,12 +31,14 @@
       "company": "CloudScale Solutions",
       "position": "DevOps Engineer Intern",
       "duration": "May 2025 - August 2025",
+      "role": "Responsible for automating deployment processes and managing cloud infrastructure.",
       "description": "Automated deployment infrastructure using GitHub Actions pipelines, reducing delivery cycle times by 20%. Managed scalable Docker containers within development cluster environments."
     },
     {
       "company": "TechCorp Systems",
       "position": "Frontend Developer Intern",
       "duration": "June 2024 - August 2024",
+      "role": "Contributed to the development of responsive web applications using React.",
       "description": "Collaborated within an Agile framework to migrate standard corporate webpages into responsive, high-performance React components."
     }
   ],
@@ -48,12 +50,11 @@
       "technologies": ["Node.js", "Express", "React", "GitHub Actions"],
       "methodology": "Designed and implemented a full-stack application that integrates with GitHub for seamless deployment, utilizing CI/CD pipelines to automate the build and deployment process.",
       "infrastructure": "Deployed on AWS using Elastic Beanstalk, ensuring scalability and reliability for users accessing their generated portfolios.",
-      "thumbnail": "https://via.placeholder.com/300x200.png?text=Automated+Portfolio+Generator",
       "live_link": "https://ishanpatel.me"
     },
     { 
       "title": "Cloud Resource Manager",
-      "repo_name": "Cloud-Resource-Manager",
+      "repo_name": "Neeta-s-Eyebrow-Threading-Home-page",
       "description": "A tool designed to help developers manage and optimize their cloud resources across multiple providers, providing insights and automation for cost savings.",
       "technologies": ["Python", "AWS SDK", "Terraform"],
       "methodology": "Implemented a command-line interface that interacts with cloud provider APIs to fetch resource usage data, analyze costs, and suggest optimizations.",
