@@ -18,6 +18,12 @@
       "degree": "Bachelor of Science in Computer Science",
       "graduationYear": "2026",
       "details": "Graduated with Honors. Focus on Systems Architecture."
+    },
+    {
+      "institution": "Tech High School",
+      "degree": "High School Diploma",
+      "graduationYear": "2022",
+      "details": "Graduated with Distinction. President of the Coding Club."
     }
   ],
   "experiences": [
@@ -35,11 +41,25 @@
     }
   ],
   "projects": [
-    {
-      "repo_name": "Automated-portfolio"
+    { 
+      "title": "Automated Portfolio Generator",
+      "repo_name": "Automated-portfolio",
+      "description": "A dynamic portfolio generator that creates personalized portfolios based on user input, showcasing skills, experiences, and projects in a visually appealing format.",
+      "technologies": ["Node.js", "Express", "React", "GitHub Actions"],
+      "methodology": "Designed and implemented a full-stack application that integrates with GitHub for seamless deployment, utilizing CI/CD pipelines to automate the build and deployment process.",
+      "infrastructure": "Deployed on AWS using Elastic Beanstalk, ensuring scalability and reliability for users accessing their generated portfolios.",
+      "thumbnail": "https://via.placeholder.com/300x200.png?text=Automated+Portfolio+Generator",
+      "live_link": "https://ishanpatel.me"
     },
-    {
-      "repo_name": "react-portfolio-website"
+    { 
+      "title": "Cloud Resource Manager",
+      "repo_name": "Cloud-Resource-Manager",
+      "description": "A tool designed to help developers manage and optimize their cloud resources across multiple providers, providing insights and automation for cost savings.",
+      "technologies": ["Python", "AWS SDK", "Terraform"],
+      "methodology": "Implemented a command-line interface that interacts with cloud provider APIs to fetch resource usage data, analyze costs, and suggest optimizations.",
+      "infrastructure": "Hosted on AWS Lambda for serverless execution, allowing users to run the tool without managing infrastructure.",
+      "thumbnail": "https://via.placeholder.com/300x200.png?text=Cloud+Resource+Manager",
+      "live_link": null
     }
   ]
 }
