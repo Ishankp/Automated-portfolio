@@ -15,7 +15,6 @@ function Projects({ projects, github}) {
 }
 
 function ProjectCard({ project, github }) {
-    console.log("ProjectCard received github:", github);
     const [isFlipped, setIsFlipped] = useState(false);
     const toggleFlip = () => setIsFlipped(!isFlipped);
 
@@ -38,7 +37,6 @@ function ProjectCardFront({ project, onFlip }) {
 }
 
 function ProjectCardBack({ project, onFlip, github }) {
-    console.log("ProjectCardBack received github:", github);
     return (
         <div className="project-card">
             <h3>{project.title}</h3>
@@ -50,7 +48,14 @@ function ProjectCardBack({ project, onFlip, github }) {
                 <p>GitHub repository link not available.</p> // Optional: provide feedback
             )}
             {/* <p>Methodoloy: {project.methodology}</p> */}
-            <p>Technologies: {project.technologies}</p>
+            <div className="tech-stack">
+                <strong>Technologies:</strong>
+                <div className="tech-tags">
+                    {project.technologies.map((tech, i) => (
+                        <span key={i} className="tech-tag">{tech}</span>
+                    ))}
+                </div>
+            </div>
             <button onClick={onFlip}>Back</button>
         </div>
     );

@@ -19,3 +19,25 @@
     border-radius: 4px;
     margin: 10px 0;
 }
+
+.tech-stack {
+    margin-top: 15px;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+    justify-content: center;
+
+}
+
+.tech-tag {
+    background-color: #e1e4e8;
+    color: #444;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
