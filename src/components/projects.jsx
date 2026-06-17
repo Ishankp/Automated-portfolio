@@ -21,5 +21,7 @@ function ProjectCard({ project }) {
             <p>{project.description}</p>
         </div>
     );
+
+    
 }
 export default Projects;

@@ -4,6 +4,7 @@ import Header from './components/header.jsx';
 import Profile from './components/profile.jsx';
 import Navbar from './components/navbar.jsx';
 import Projects from './components/projects.jsx';
+import Experience from './components/experience.jsx';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
 
       {/* Projects section */}
       <Projects projects = {info.projects} github = {info.github_username}/>
+
+      {/* Experience section */}
+      <Experience experience={info.experience} />
 
     </div>
   );
