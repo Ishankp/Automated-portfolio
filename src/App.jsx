@@ -18,7 +18,7 @@ function App() {
       <Profile bio={info.bio} education={info.education} />
 
       {/* Projects section */}
-      <Projects projects = {info.projects} github = {info.github_username}/>
+      <Projects projects = {info.projects} github = {info.github}/>
 
       {/* Experience section */}
       <Experience experience={info.experience} />
