@@ -1,12 +1,9 @@
 {
-  "name": "Alex Mercer",
+  "name": "Ishan Patel",
   "title": "Cloud & DevOps Engineer",
   "bio": "Specializing in automating software delivery pipelines, container orchestrations, and secure cloud infrastructure.",
   "github": "Ishankp",
-  "links": {
-    "linkedin": "https://linkedin.com",
-    "github_username": "Ishankp"
-  },
+  "linkedin": "ishan-patel-12345678",
   "technicalSkills": {
     "programmingLanguages": ["JavaScript", "TypeScript", "Python", "Go"],
     "frameworksAndLibraries": ["React", "Node.js", "Express", "Next.js"],

@@ -5,6 +5,7 @@ function Projects({ projects, github}) {
   return (
     <section className="projects-container"> 
         <h2>My Projects</h2>
+        <l>Press here to flip all projects</l>
         <div className="projects-grid">
             {projects.map((project, index) => (
                 <ProjectCard key={index} project={project} github={github} />
