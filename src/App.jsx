@@ -21,7 +21,7 @@ function App() {
       <Projects projects = {info.projects} github = {info.github}/>
 
       {/* Experience section */}
-      <Experience experience={info.experience} />
+      <Experience experience={info.experiences} />
 
     </div>
   );
